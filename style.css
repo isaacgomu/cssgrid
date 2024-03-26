@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1px;
+  grid-auto-rows: 10px;
+  grid-auto-flow: column;
+}
+
+.Box {
+  border: 2px solid black;
+}
+
+.Box img {
+  width: 196px;
+  height: 100px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 2px solid black;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+}
+
+.Box2 {
+  border: 2px solid black;
+}
+
+.HEADER {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+.FOOTER {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
